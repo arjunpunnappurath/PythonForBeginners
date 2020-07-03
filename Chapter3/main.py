@@ -21,3 +21,14 @@ print(course[0:3])
 
 #Same result as of above
 print(course[:3])
+
+#how to place a double quotes in the middle of a string (Place using \"")
+#The back-slash is an escape character. eg: \", \', \\
+cc = "Python \" Programming"
+cd = "Python \' Programming"
+ce = "Python \\ Programming"
+cf = "Python \n Programming"
+print cc
+print cd
+print ce
+print cf
