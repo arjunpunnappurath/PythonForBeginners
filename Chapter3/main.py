@@ -32,3 +32,42 @@ print cc
 print cd
 print ce
 print cf
+
+
+#Simple string concatenations
+
+first = "John"
+last = "Doe"
+full = first + " " + last
+print (full)
+
+#String methods
+python = "python programming"
+print(len(python))
+
+#convert the text to uppercase  but the original string is not affected
+print(python.upper())
+print(python)
+
+capPython = python.upper()
+print(capPython)
+
+print(python.lower())
+
+#converts the first letter of every work capitial
+print(python.title)
+
+#removes the white spaces
+print(python.strip())
+
+#To get the index of a character use find method
+print(python.find("pro"))
+
+#Replace a character or a sequence of character
+print(python.replace("p","j"))
+
+#This returns a boolean value
+print("pro" in python)
+
+#not operator
+print("swift" not in python)
