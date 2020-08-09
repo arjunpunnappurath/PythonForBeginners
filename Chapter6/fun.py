@@ -26,8 +26,23 @@ def increment(number,by=1):
     return number+by
 
 res= increment(2)
-result = increment(2,by=2)
+result = increment(number=2,by=2)
 print(res)
 print(result)
 #another way to print the result is as shown below,
 print(increment(2,6))
+
+#function with variable number of params
+def multiply(*numbers):
+    total = 1
+    for num in numbers:
+        total *= num
+    return total
+  
+print(multiply(2,3,4,5))
+
+def save_user(**user):
+    print(user["name"])
+save_user(id=1, name ="John", age = 22)
+
+
